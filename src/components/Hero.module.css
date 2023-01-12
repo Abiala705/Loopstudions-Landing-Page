@@ -1,0 +1,27 @@
+.section {
+  background-image: url(/src/images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.hero-header {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  border: 2px white solid;
+  line-height: 1.5;
+  /* padding-top: 20vh; */
+}
+
+@media (min-width: 786px) {
+  .section {
+    background-image: url(/src/images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+  }
+  .hero-header {
+    font-size: 3.5rem;
+  }
+}

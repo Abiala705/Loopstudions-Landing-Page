@@ -1,0 +1,18 @@
+.button {
+  color: black;
+  border: 1px black solid;
+  border-radius: 0px;
+  background-color: inherit;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  word-spacing: 3px;
+  font-size: 1.3rem;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}

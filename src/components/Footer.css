@@ -1,0 +1,55 @@
+footer {
+  background-color: black;
+}
+
+footer div ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  flex-shrink: inherit;
+}
+
+footer div ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width 0.4s ease-in;
+  display: flex;
+  justify-content: center;
+}
+
+footer div ul li a:hover::after {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+footer div ul li a:hover {
+  color: white;
+}
+
+footer .reserved {
+  font-size: 0.7rem;
+}
+
+@media (min-width: 768px) {
+  .footer-mobile {
+    display: none;
+  }
+  footer div ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: white;
+    flex-shrink: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-desktop {
+    display: none;
+  }
+}
