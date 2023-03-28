@@ -47,6 +47,12 @@
 .hamb {
   background-color: transparent;
   border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.hamb:hover {
+  background-color: transparent;
 }
 
 .hamb:hover::after {

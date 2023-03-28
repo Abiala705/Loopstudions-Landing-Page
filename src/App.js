@@ -10,12 +10,19 @@ const App = () => {
   console.log("App running");
   return (
     <div>
-      <Hero />
-      <Interactive />
-      <Creations />
-      <CreationsDesktop />
-      <Footer />
-      <FooterDesktop />
+      <header>
+        <Hero />
+      </header>
+
+      <main>
+        <Interactive />
+        <Creations />
+        <CreationsDesktop />
+      </main>
+      <footer>
+        <Footer />
+        <FooterDesktop />
+      </footer>
     </div>
   );
 };

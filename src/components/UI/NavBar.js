@@ -6,8 +6,8 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div bg="light" expand="lg" className="py-3 row col-12">
-      <div className="row col-12 justify-content-between">
-        <div href="#home" className="col-4 col-md-2 pt-2 mt-4 mt-md-0">
+      <div className="row justify-md-content-between">
+        <div href="#home" className="col-4 col-md-2 pt-2 mt-3 mt-md-0">
           <img src={logo} className="logo" />
         </div>
 
@@ -15,7 +15,7 @@ const NavBar = () => {
 
         <nav class="d-none d-md-block col-6 ms-auto">
           <ul className="row ms-auto">
-            <li className="col-2 pt-2">
+            <li className="col-2 pt-2 nav-item">
               <a href="#about">About</a>
             </li>
             <li className="col-2 pt-2">

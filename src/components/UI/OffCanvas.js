@@ -15,9 +15,8 @@ const OffCanvas = () => {
   return (
     <>
       <Button
-        variant="primary"
         onClick={handleShow}
-        className="hamb d-md-none col-2 ms-auto bg-none border-none mb-5"
+        className="d-md-none col-2 ms-auto bg-none border-none mt-3 hamb"
       >
         <img src={Hamburger} />
       </Button>
